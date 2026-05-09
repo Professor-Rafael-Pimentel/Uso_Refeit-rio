@@ -70,19 +70,16 @@ header{
     font-size: 22px; 
     font-weight: 700; 
     letter-spacing: 0.5px;
-    display: grid
 }
 
 .header-center h1{
     font-size:24px;
     margin-bottom:4px;
-    display: grid
 }
 
 .header-center p{
     font-size:13px;
     opacity:.9;
-    display: grid
 }
 
 /* ================= NAV ================= */
@@ -430,13 +427,4 @@ select:focus{
     .student-row button{
         width:100%;
     }
-}
-
-/* Responsividade */
-@media (max-width: 500px) {
-    .header-center h1 { font-size: 18px; }
-    .logo-img { height: 45px; }
-    .nav-btn .icon { font-size: 24px; }
-    .nav-btn .text { font-size: 12px; }
-    .flex { flex-direction: column; gap: 8px; }
 }
