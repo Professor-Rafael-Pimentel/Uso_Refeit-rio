@@ -407,66 +407,24 @@ select:focus{
 
 @media(max-width:768px){
 
-    body{
-        overflow-x:hidden;
-    }
-
     header{
         flex-direction:column;
-        text-align:center;
-        padding:14px;
     }
 
     .logo-img{
-        height:42px;
-    }
-
-    .header-center h1{
-        font-size:20px;
-    }
-
-    .header-center p{
-        font-size:11px;
-    }
-
-    nav{
-        flex-direction:column;
-    }
-
-    .nav-btn{
-        width:100%;
-        border-bottom:1px solid #eee;
-    }
-
-    .card{
-        padding:16px;
+        height:50px;
     }
 
     .validation-actions{
         flex-direction:column;
     }
 
-    .validation-actions .btn{
-        width:100%;
-    }
-
     .student-row{
         flex-direction:column;
         align-items:flex-start;
-        flex-wrap:wrap;
     }
 
     .student-row button{
         width:100%;
-    }
-
-    .chart-wrapper{
-        height:260px;
-    }
-
-    input,
-    select,
-    button{
-        max-width:100%;
     }
 }
