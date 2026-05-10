@@ -41,116 +41,45 @@ body{
 
 /* ================= HEADER ================= */
 
-/* ================= HEADER ================= */
-
-.main-header{
-    width:100%;
+header{
+    background:linear-gradient(135deg,var(--primary),var(--primary-dark));
+    color:#FFF;
+    padding:18px;
     display:flex;
     align-items:center;
     justify-content:space-between;
-    gap:16px;
-
-    padding:16px 20px;
-
-    background:linear-gradient(
-        135deg,
-        #1565C0,
-        #0D47A1
-    );
-
-    color:#FFF;
-
-    box-shadow:0 4px 18px rgba(0,0,0,.15);
-
-    flex-wrap:wrap;
+    gap:12px;
+    box-shadow:var(--shadow);
+    position: relative; 
+    z-index: 10;
 }
-
-/* ================= LOGOS ================= */
 
 .logo-img{
-
-    width:clamp(50px, 8vw, 90px);
-
-    height:auto;
-
-    object-fit:contain;
-
-    background:#FFF;
-
-    padding:6px;
-
+    height:60px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 5px;
     border-radius:12px;
-
-    flex-shrink:0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    object-fit:contain;
 }
 
-/* ================= TEXTO CENTRAL ================= */
-
 .header-center{
-
-    flex:1;
-
-    min-width:220px;
-
     text-align:center;
+    flex:1;
+    margin: 0; 
+    font-size: 22px; 
+    font-weight: 700; 
+    letter-spacing: 0.5px;
 }
 
 .header-center h1{
-
-    font-size:clamp(1.1rem, 2vw, 2rem);
-
-    line-height:1.2;
-
-    margin-bottom:6px;
-
-    word-break:break-word;
+    font-size:24px;
+    margin-bottom:4px;
 }
 
 .header-center p{
-
-    font-size:clamp(.8rem, 1.2vw, 1rem);
-
-    opacity:.95;
-
-    line-height:1.4;
-}
-
-/* ================= MOBILE ================= */
-
-@media(max-width:768px){
-
-    .main-header{
-
-        flex-direction:column;
-
-        justify-content:center;
-
-        text-align:center;
-
-        padding:18px 12px;
-    }
-
-    .header-center{
-
-        order:2;
-
-        width:100%;
-    }
-
-    .logo-img{
-
-        width:70px;
-    }
-
-    .header-center h1{
-
-        font-size:1.3rem;
-    }
-
-    .header-center p{
-
-        font-size:.9rem;
-    }
+    font-size:13px;
+    opacity:.9;
 }
 
 /* ================= NAV ================= */
