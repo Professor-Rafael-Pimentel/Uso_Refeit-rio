@@ -449,13 +449,6 @@ select:focus{
         width:100%;
     }
 
-    header{
-        flex-direction:column;
-        text-align:center;
-        justify-content:center;
-        padding:18px 12px;
-    }
-
     .header-center{
         order:0;
         width:100%;
